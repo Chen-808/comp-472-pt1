@@ -6,3 +6,4 @@ Bryce Nichol
 - Dataset Preparation & Analysis (Task 1)
 - 2.1, 2.2
 - Embeddings as Features (Task 3)
+- 4.1
