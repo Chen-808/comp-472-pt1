@@ -1,0 +1,12 @@
+1.
+
+Since the data is unbalanced, 
+
+2.
+
+3. 
+
+Bryce Nichol
+- Dataset Preparation & Analysis (Task 1)
+- 2.1, 2.2
+- Embeddings as Features (Task 3)
