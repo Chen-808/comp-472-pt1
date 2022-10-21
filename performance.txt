@@ -37,6 +37,7 @@ disappointment       0.00      0.00      0.00       946
       accuracy                           0.16     34364
      macro avg       0.02      0.02      0.02     34364
   weighted avg       0.16      0.16      0.16     34364
+  
 [[   0   53    0    0    0    0    0    0    0    0    0    0    0    0
      0    0    0    0    0    0   82    0  270    0 1765    0    0    0
      0    0    0]
@@ -129,7 +130,9 @@ disappointment       0.00      0.00      0.00       946
      0    0    0]
  [   0  220    0    0    0    0    0    0    0    0    0    0    0    0
      0    0    0    0    0    0  108    0  166    0  176    0    0    0
-     0    0    0]]Multiomial Naive Bayes classifier for 'sentiment'
+     0    0    0]]
+     
+Multiomial Naive Bayes classifier for 'sentiment'
 
               precision    recall  f1-score   support
 
@@ -144,7 +147,10 @@ weighted avg       0.54      0.55      0.54     34364
 [[ 920  610 1369  869]
  [ 280 4033 2145 1226]
  [ 678 1900 5519 2942]
- [ 301  945 2228 8399]]Decision Tree classifier for 'emotion'
+ [ 301  945 2228 8399]]
+ 
+ 
+ Decision Tree classifier for 'emotion'
 
                 precision    recall  f1-score   support
 
@@ -180,6 +186,7 @@ disappointment       0.18      0.19      0.19       946
       accuracy                           0.36     34364
      macro avg       0.30      0.28      0.28     34364
   weighted avg       0.38      0.36      0.36     34364
+  
 [[1237   46   13   37  151   26   12   23   13   11   12    7    1   42
      4   51    0   50   86    1  271   30    7    4    1    0    5   29]
  [  57  684   23   45   31   10   14    9    3    9   18    5    1   14
@@ -235,7 +242,10 @@ disappointment       0.18      0.19      0.19       946
  [  19   19   25   57   45   29   13    7    9   79   50   12    9    1
      9    5    9    6    5   10  163    1    2   15    0   41  134    3]
  [  53   20   23   35   34    3   36   48    7   11   25    7   10   23
-     4    2    1   10    3    0  149    8    1   12    1    2    2  140]]Decision Tree classifier for 'sentiment'
+     4    2    1   10    3    0  149    8    1   12    1    2    2  140]]
+     
+     
+     Decision Tree classifier for 'sentiment'
 
               precision    recall  f1-score   support
 
@@ -250,7 +260,9 @@ weighted avg       0.56      0.54      0.55     34364
 [[1829  615  869  455]
  [ 805 4535 1611  733]
  [1640 2441 5289 1669]
- [ 867 1358 2611 7037]]Multi-layered Perceptron classifier for 'emotion'
+ [ 867 1358 2611 7037]]
+ 
+     Multi-layered Perceptron classifier for 'emotion'
 
                 precision    recall  f1-score   support
 
@@ -286,6 +298,7 @@ disappointment       0.21      0.13      0.16       946
       accuracy                           0.42     34364
      macro avg       0.33      0.28      0.30     34364
   weighted avg       0.39      0.42      0.39     34364
+  
 [[1189   31    7   24   60   16    5   10    9   10   10    3    0   36
      0   42    0   54  112    0  455   37   11    7    1    1    7   33]
  [  31  701   12   30   18    7    4    3    4    4   11    3    2   10
@@ -358,7 +371,9 @@ weighted avg       0.57      0.57      0.57     34364
 [[1270  627 1217  654]
  [ 377 4362 1942 1003]
  [ 894 2059 5678 2408]
- [ 378 1007 2139 8349]]Top-MNB classifier for 'emotion'
+ [ 378 1007 2139 8349]]
+ 
+ Top-MNB classifier for 'emotion'
 
                 precision    recall  f1-score   support
 
@@ -394,6 +409,8 @@ disappointment       0.26      0.08      0.13       946
       accuracy                           0.40     34364
      macro avg       0.34      0.20      0.23     34364
   weighted avg       0.37      0.40      0.35     34364
+  
+  
 [[1093   20    4   17   65   11    3   13    6    6    7    0    0   16
      1   56    0   29   77    0  694   20    0    9    0    0    1   22]
  [  39  520   10   30   19    6    4    4    3    2   18    2    0    3
@@ -466,7 +483,9 @@ weighted avg       0.54      0.55      0.54     34364
 [[ 920  610 1369  869]
  [ 280 4033 2145 1226]
  [ 678 1900 5519 2942]
- [ 301  945 2228 8399]]Top-DT classifier for 'emotion'
+ [ 301  945 2228 8399]]
+ 
+ Top-DT classifier for 'emotion'
 
                 precision    recall  f1-score   support
 
@@ -502,6 +521,7 @@ disappointment       0.50      0.00      0.00       946
       accuracy                           0.39     34364
      macro avg       0.17      0.13      0.12     34364
   weighted avg       0.26      0.39      0.26     34364
+  
 [[  334     9     0     1     0     0     0     0     0     0     0     0
       0     1     0    11     0     0    76     0  1718    18     0     0
       0     2     0     0]
@@ -602,7 +622,9 @@ weighted avg       0.58      0.42      0.34     34364
 [[    5    28  3596   139]
  [    1   291  7065   327]
  [    1    66 10407   565]
- [    2    99  8088  3684]]Top-MLP classifier for 'emotion'
+ [    2    99  8088  3684]]
+ 
+ Top-MLP classifier for 'emotion'
 
                 precision    recall  f1-score   support
 
@@ -638,6 +660,7 @@ disappointment       0.22      0.06      0.10       946
       accuracy                           0.42     34364
      macro avg       0.30      0.23      0.23     34364
   weighted avg       0.37      0.42      0.35     34364
+  
 [[1237   18    9    9   16    0    2   20    2    3    4    0    0    3
      3   39    0   28  140    0  536   36    0    0    0    4    4   57]
  [  34  714   28    9    3    0    0    3    1    0    9    3    0    1
