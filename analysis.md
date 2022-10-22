@@ -28,9 +28,9 @@ Top Multi-Layered Perceptron
     emotion score: 0.42
     sentiment score:0.57
     
-Like earlier, the multinomial naive-bayes performing less well than the other two models could be due to its nature of assuming independence between features and ignoring irrelevent features. However, its emotion score is higher than before which could be thanks to the added hyperparameter. 
+Like earlier, the multinomial naive-bayes performing less well than the other two models could be due to its nature of assuming independence between features and ignoring irrelevent features. However, its emotion score is higher than before which could be thanks to the added hyperparameter. For multinomial naive-bayes we can try adding more hyperparameters as parameters for gridsearch so we can find the best hyperparameters for this classifier.
 
-The scores after using hyperparameters are only slightly better than without hyperparameters. When looking at decision trees, having a depth of 8 is better than having a depth of 3 and having a minimum sample split of 5 is better than 3. From this, we can deduce that allowing more precise splitting and categorizing of data allows for better accuracy. 
+The scores after using hyperparameters are only slightly better than without hyperparameters. When looking at decision trees, having a depth of 8 is better than having a depth of 3 and having a minimum sample split of 5 is better than 3. From this, we can deduce that allowing more precise splitting and categorizing of data allows for better accuracy. And to reach the optimal hyperparameters for decision tree classifier we have to choose a larger number to see what is the optimal depth and minimum sample split.
 
 When changing the size of training and testing sets, this changes the accuracy of the model. In our case, the size of the training dataset were lowered to 50% and the testing dataset raised to 50%. This lowered the overall accuracy for every model in all cases. Which was expected since there are less data sets to which the model can train to. 
 For example, looking at the decision trees: 
@@ -39,7 +39,7 @@ For example, looking at the decision trees:
     emotion f1 accuracy with gridSearch = 0.29
     sentiment f1 accuracy with gridSearch = 0.32
     
-For the multi-layered perceptron case, there were convergence warnings where the maximum iterations has been reached but the optimization hasn't converged yet. The speed at which the MLP model can be trained isn't the most optimal since it could take a very long time before finding convergence despite it performing about the same compared to other models. 
+For the multi-layered perceptron case, there were convergence warnings where the maximum iterations has been reached but the optimization hasn't converged yet. The speed at which the MLP model can be trained isn't the most optimal since it could take a very long time before finding convergence despite it performing about the same compared to other models. As we had 3 hyper parameters, activation which had 4 different values, hidden layers with 2 values and solver with 2 which made the classifier run multiple times, we couldn't reach the desired number of iterataion so we didn't end up with the optimal result for this classifier.
 
 
 
