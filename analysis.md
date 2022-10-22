@@ -56,3 +56,8 @@ Monica Chen
 - 2.4 for MNB and DT
 - 2.5
 - 4.2
+
+Hoda Nourbakhsh
+- 2.3.3 to 2.3.6
+- 2.4 for MLP, Top-MNB, Top-DT, Top-MLP
+- 4.2
